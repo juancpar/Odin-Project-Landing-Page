@@ -1,27 +1,24 @@
 * {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0px;
     padding: 0px;
 }
 
 /* Header style code*/
-
-.hero {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
-    padding: 16px;
-
 }
 
-.hero-logo {
+.header-logo {
     color: #f9faf8;
     font-size: 24px;
-    margin: 0 64px;
+    margin: 0 120px;
 }
 
-.hero-nav {
+.header-nav {
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -32,4 +29,37 @@ a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+/*hero section code*/
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    padding: 0px 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bold;
+    width: 400px;
+}
+
+.hero p {
+    color: #e5e7eb;
+    font-size: 18px;
+    width: 200px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    width: 125px;
+    border-radius: 6px;
+    border: none;
+    padding: 8px;
 }
