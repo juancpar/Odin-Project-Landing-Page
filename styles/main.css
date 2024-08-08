@@ -202,4 +202,9 @@
   .info-gallery {
     grid-template-columns: 1fr 1fr;
   }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 55px 0px;
+  }
 }

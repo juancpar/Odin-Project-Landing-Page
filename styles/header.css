@@ -53,3 +53,9 @@
     margin-right: 92px;
   }
 }
+
+@media screen and (max-width: 680px) {
+  .logo-container {
+    margin: 0;
+  }
+}
