@@ -1,51 +1,4 @@
-body {
-  font-family: Roboto, Arial;
-  margin: 0;
-  padding: 0;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #1f2937;
-  color: white;
-  padding: 10px 184px 16px 184px;
-  height: 40px;
-}
-
-.logo-container {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.logo-image {
-  width: 24px;
-  display: inline-block;
-  background-color: white;
-  border: 1px solid white;
-  border-radius: 12px;
-}
-
-.logo-name {
-  font-weight: bold;
-  font-size: 24px;
-  display: inline-block;
-}
-
-.nav-links {
-  display: flex;
-  justify-content: space-between;
-  gap: 24px;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-}
-
+/*Hero\First Section under header*/
 .hero {
   display: flex;
   justify-content: space-between;
@@ -92,6 +45,7 @@ body {
   height: 100%;
 }
 
+/*Gallery\Second Section*/
 .info-section {
   display: flex;
   flex-direction: column;
@@ -134,6 +88,7 @@ body {
   color: #1f2937;
 }
 
+/*Quote\Third Section*/
 .quote-section {
   background-color: #e5e7eb;
   display: flex;
@@ -161,6 +116,7 @@ body {
   margin-top: 0px;
 }
 
+/*CTA\Fourth Section*/
 .marketing-section {
   display: flex;
   justify-content: center;
@@ -209,14 +165,4 @@ body {
   padding: 7px 34px;
   border-radius: 6px;
   cursor: pointer;
-}
-
-footer {
-  background-color: #1f2937;
-  color: white;
-  font-size: 20px;
-  height: 102px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }

@@ -1,0 +1,19 @@
+body {
+  font-family: Roboto, Arial;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  outline: 1px solid red;
+}
+
+footer {
+  background-color: #1f2937;
+  color: white;
+  font-size: 20px;
+  height: 102px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
