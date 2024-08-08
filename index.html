@@ -1,89 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
 
-        <title>Odin Landing Page</title>
-        <!--Added Roboto Font from Google Fonts-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <title>Odin Landing Page</title>
+    <!--Added Roboto Font from Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
 
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <main>
-            <!--Header divided into left and right section.-->
-            <!--Left side is the logo head, right is the nav links-->
-            <header class="header">
-                <div class="logo-name">Header Logo</div>
-                <nav class="nav-links">
-                    <a href="/">header link one</a>
-                    <a href="/">header link two</a>
-                    <a href="/">header link three</a>
-                </nav>
-            </header>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <!--Header divided into left and right section.-->
+      <!--Left side is the logo head, right is the nav links-->
+      <header class="header">
+        <div class="logo-container">
+          <img class="logo-image" src="images/mountain_3571932.png" alt="" />
+          <div class="logo-name">Majestic Peaks</div>
+        </div>
+        <nav class="nav-links">
+          <a href="/">Home</a>
+          <a href="/">About Us</a>
+          <a href="/">Contact Us</a>
+        </nav>
+      </header>
 
-            <!--Created section to place first bit of main information and main image in-->
-            <section class="hero">
-                <div class="hero-container">
-                    <h1 class="hero-main-text">This website is awesome</h1>
-                    <p class="hero-secondary-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-                    <button class="hero-button">Sign Up</button>
-                </div>
-                <div class="hero-image-container">
-                    <img src="images/logo_5149120.png" alt="illustration" class="hero-image">
-                </div>
-            </section>
+      <!--Created section to place first bit of main information and main image in-->
+      <section class="hero">
+        <div class="hero-container">
+          <h1 class="hero-main-text">
+            Experience the Majesty of the Mountains
+          </h1>
+          <p class="hero-secondary-text">
+            Join our community and discover the breathtaking beauty and
+            adventure that Majestic Peaks has to offer. Sign up now to receive
+            exclusive access to our guided tours, special events, and expert
+            tips on mountain exploration. Your adventure begins here!
+          </p>
+          <button class="hero-button">Sign Up</button>
+        </div>
+        <div class="hero-image-container">
+          <img
+            src="images/ashok-sharma-y36ZvMDyrLM-unsplash.jpg"
+            alt="illustration"
+            class="hero-image"
+          />
+        </div>
+      </section>
 
-            <!--Created section for an image gallery-->
-            <section class="info-section">
-              <h1 class="info-header-text">Some random information</h1>
-              <div class="info-gallery">
-                <div class="info-gallery-container">
-                  <img class="info-image" src="images/logo_5149120.png">
-                  <p class="info-image-text">this is some subtext under an illustration or image</p>
-                </div>
-                <div class="info-gallery-container">
-                  <img class="info-image" src="images/logo_5149120.png">
-                  <p class="info-image-text">this is some subtext under an illustration or image</p>
-                </div>
-                <div class="info-gallery-container">
-                  <img class="info-image" src="images/logo_5149120.png">
-                  <p class="info-image-text">this is some subtext under an illustration or image</p>
-                </div>
-                <div class="info-gallery-container">
-                  <img class="info-image" src="images/logo_5149120.png">
-                  <p class="info-image-text">this is some subtext under an illustration or image</p>
-                </div>
-              </div>
-            </section>
+      <!--Created section for an image gallery-->
+      <section class="info-section">
+        <h1 class="info-header-text">Explore Our Stunning Mountian Views</h1>
+        <div class="info-gallery">
+          <div class="info-gallery-container">
+            <img
+              class="info-image"
+              src="images/daniel-roe-lpjb_UMOyx8-unsplash.jpg"
+              alt="Mountain Reflection"
+            />
+            <p class="info-image-text">
+              Crystal clear water reflecting majestic mountains
+            </p>
+          </div>
+          <div class="info-gallery-container">
+            <img
+              class="info-image"
+              src="images/luca-bravo-ESkw2ayO2As-unsplash.jpg"
+              alt="Mountain Lake View"
+            />
+            <p class="info-image-text">
+              Serene lake surrounded by towering pine trees
+            </p>
+          </div>
+          <div class="info-gallery-container">
+            <img
+              class="info-image"
+              src="images/fynn-DEnuB_zok9M-unsplash.jpg"
+              alt="Snow-Capped Mountains"
+            />
+            <p class="info-image-text">
+              Snow-capped peaks reflected in a tranquil lake
+            </p>
+          </div>
+          <div class="info-gallery-container">
+            <img
+              class="info-image"
+              src="images/ben-black-r6wCtto743w-unsplash.jpg"
+              alt="Misty Mountain View"
+            />
+            <p class="info-image-text">
+              Misty mountains creating a mystical atmosphere
+            </p>
+          </div>
+        </div>
+      </section>
 
-            <!--A fun fact or quote will go here-->
-            <article class="quote-section">
-                <p class="quote-text">This is an inspiring quote, or a testimonial
-                    from a customer. Maybe it's just filling up space,
-                    or maybe people will actually read it. Who knows?
-                    All I know is that it looks nice.
-                </p>
-                <p class="quote-author">-Thor, God of Thunder</p>
-            </article>
+      <!--A fun fact or quote will go here-->
+      <article class="quote-section">
+        <p class="quote-text">
+          Twenty years from now you will be more disappointed by the things that
+          you didn't do than by the ones you did do. So throw off the bowlines,
+          sail away from safe harbor, catch the trade winds in your sails.
+          Explore, Dream, Discover.
+        </p>
+        <p class="quote-author">- H. Jackson Brown Jr.</p>
+      </article>
 
-            <!--This will be for the call to action section-->
-            <section class="marketing-section">
-              <div class="marketing-container">
-                <div class="call-to-action">
-                  <p class="call-to-action-first">Call to action! It's time!</p>
-                  <p class="call-to-action-second">Sign up for our product by clicking that button right over there!</p>
-                </div>
-                <button class="signup-button">Sign Up</button>
-              </div>
-            </section>
+      <!--This will be for the call to action section-->
+      <section class="marketing-section">
+        <div class="marketing-container">
+          <div class="call-to-action">
+            <p class="call-to-action-first">Call to action! It's time!</p>
+            <p class="call-to-action-second">
+              Sign up for our product by clicking that button right over there!
+            </p>
+          </div>
+          <button class="signup-button">Sign Up</button>
+        </div>
+      </section>
 
-            <!--Footer for copyright information-->
-            <!--Practiced the copyright symbol html entity-->
-            <footer>Copyright &#169; The Odin Project 2021</footer>
-        </main>
-    </body>
+      <!--Footer for copyright information-->
+      <!--Practiced the copyright symbol html entity-->
+      <footer>Copyright &#169; The Odin Project 2021</footer>
+    </main>
+  </body>
 </html>
