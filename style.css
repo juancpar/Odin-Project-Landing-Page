@@ -190,3 +190,15 @@ body {
     padding: 4px 20px;
     border-radius: 4px;
 }
+
+
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    font-size: 20px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
