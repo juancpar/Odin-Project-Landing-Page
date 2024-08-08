@@ -6,7 +6,7 @@ This project is a landing page created as part of The Odin Project curriculum. T
 
 ### HTML and Semantic HTML
 - **Structure and Semantics:**
-  - Utilized semantic HTML elements such as <header>, <footer>, <section>, and <article> to create a well-structured, accessible, and SEO-friendly document.
+  - Utilized semantic HTML elements such as `<header>`, `<footer>`, `<section>`, and `<article>` to create a well-structured, accessible, and SEO-friendly document.
 
 ### CSS Fundamentals
 - **Basic Styling:**
