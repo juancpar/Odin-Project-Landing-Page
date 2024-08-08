@@ -43,3 +43,13 @@
   color: white;
   font-size: 18px;
 }
+
+@media screen and (max-width: 1150px) {
+  .logo-container {
+    margin: 0 92px;
+  }
+
+  .nav-links {
+    margin-right: 92px;
+  }
+}

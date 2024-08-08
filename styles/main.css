@@ -1,8 +1,11 @@
 /*Hero\First Section under header*/
+main {
+  overflow: hidden;
+}
+
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  outline: 1px solid lightgreen;
   column-gap: 140px;
   padding: 115px 184px;
   background-color: #1f2937;
@@ -113,7 +116,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 66px 0;
+  padding: 102px 0;
   color: #1f2937;
 }
 
@@ -123,7 +126,7 @@
   font-weight: 300;
   font-style: italic;
   width: 800px;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .quote-author {
@@ -131,13 +134,14 @@
   font-weight: bold;
   text-align: right;
   width: 800px;
-  margin-top: 0px;
+  margin: 0;
 }
 
 /*CTA\Fourth Section*/
 .marketing-section {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 110px;
 }
 
@@ -157,21 +161,22 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex: 1;
   color: white;
   font-size: 24px;
 }
 
 .call-to-action-first {
-  font-weight: bold;
-  margin-left: 100px;
   font-size: 24px;
+  font-weight: bold;
   margin-bottom: 0px;
+  margin-left: 100px;
 }
 
 .call-to-action-second {
-  margin-left: 100px;
-  margin-top: 0;
   font-size: 18px;
+  margin-top: 0;
+  margin-left: 100px;
 }
 
 .signup-button {
@@ -183,4 +188,23 @@
   padding: 7px 34px;
   border-radius: 6px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 930px) {
+  .info-gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 55px 92px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .info-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
 }
