@@ -12,6 +12,7 @@
   display: flex;
   align-items: center;
   flex: 1;
+  min-width: 200px;
   margin: 0 184px;
   gap: 8px;
 }
@@ -33,6 +34,7 @@
   justify-content: flex-end;
   gap: 24px;
   flex: 1;
+  min-width: 260px;
   margin-right: 184px;
 }
 
