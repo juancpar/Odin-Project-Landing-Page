@@ -1,4 +1,4 @@
-# Odin-Project-Landing-Page
-Landing Page created with HTML and CSS
+## Odin-Project-Landing-Page
 
-It has been three weeks of studying HTML and CSS. I have struggled with the CSS layouts, specifically <em>grid</em> and <em>flexbox</em>.
+#Creating a Landing Page by looking at the example The Odin Project provides and trying to remake what is being seen.
+
