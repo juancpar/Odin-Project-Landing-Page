@@ -1,134 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Juan Parada">
+  <meta name="description" content="This website is a Landing Page Project for the full-stack web development curriculum">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/favicon-16x16.png" type="images/x-icon" sizes="16x16">
+  <title>Mountain Peaks | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/general.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preload" as="image" href="/images/hero-sm-640x722.webp">
+</head>
 
-    <title>Odin Landing Page</title>
-    <!--Added Roboto Font from Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="stylesheet" href="styles/general.css" />
-    <link rel="stylesheet" href="styles/header.css" />
-    <link rel="stylesheet" href="styles/main.css" />
-  </head>
-  <body>
-    <main>
-      <!--Header divided into left and right section.-->
-      <!--Left side is the logo head, right is the nav links-->
-      <header class="header">
-        <div class="logo-container">
-          <img class="logo-image" src="images/mountain_3571932.png" alt="" />
-          <div class="logo-name">Majestic Peaks</div>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <section class="header__container">
+      <!-- Brand Logo and Name -->
+      <a class="header__brand" href="/">
+        <img class="header__brand--logo" src="images/logo-icon-32x32.png" width="32" height="32" alt="Mountain Peaks Home">
+        <p class="header__brand--name">Mountain Peaks</p>
+      </a>
+      <!-- Hamburger Menu Icon -->
+      <button class="menu__toggle">
+        <span class="menu__toggle--bars"></span>
+      </button>
+    </section>
+    <!-- Navigation Menu -->
+    <nav class="nav">
+      <ul class="nav__menu">
+        <li class="nav__links"><a href="">Home</a></li>
+        <li class="nav__links"><a href="">About Us</a></li>
+        <li class="nav__links"><a href="">Contact Us</a></li>
+        <li class="nav__links"><a href="">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- End Header -->
+  <!-- Main -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero__desktop--left">
+        <h1 class="hero__title">Experience the Majesty of the Mountains</h1>
+        <p class="hero__body">Join our community and discover the breathtaking beauty and adventure that Majestic Peaks has to offer. Sign up now to receive exclusive access to our guided tours, special events, and expert tips on mountain exploration. Your adventure begins here!</p>
+        <button class="hero__btn">Sign Up</button>
+      </div>
+      <picture class="hero__image">
+        <source media="(width >= 64em)" srcset="images/hero-desktop-1280x1024.jpg">
+        <source media="(width >= 32.5em)" srcset="images/hero-tablet-1024x803.jpg">
+        <img class="hero__image--content" src="images/hero-mobile-550x722.jpg" alt="Mountain Peaks' scenery view." width="550" height="722" loading="eager" decoding="async" title="Mountain Peaks Main Mountain">
+      </picture>
+    </section>
+    <!-- End Hero -->
+    <!-- Info Gallery Section -->
+    <section class="info">
+      <h2 class="info__title">Explore Our Stunning Mountains View</h2>
+      <div class="info__gallery">
+        <figure class="info__gallery--container">
+          <img class="info__gallery--image" src="images/crystal-lg-290x290.jpg" alt="Crystal Lake View">
+          <figcaption class="info__gallery--text">Crystal clear water reflecting majestic mountains</figcaption>
+        </figure>
+        <figure class="info__gallery--container">
+          <img class="info__gallery--image" src="images/forest-lg-290x290.jpg" alt="Crystal Lake View" loading="lazy">
+          <figcaption class="info__gallery--text">Crystal clear water reflecting majestic mountains</figcaption>
+        </figure>
+        <figure class="info__gallery--container">
+          <img class="info__gallery--image" src="images/snowy-lg-290x290.jpg" alt="Crystal Lake View" loading="lazy">
+          <figcaption class="info__gallery--text">Crystal clear water reflecting majestic mountains</figcaption>
+        </figure>
+        <figure class="info__gallery--container">
+          <img class="info__gallery--image" src="images/misty-lg-290x290.jpg" alt="Crystal Lake View" loading="lazy">
+          <figcaption class="info__gallery--text">Crystal clear water reflecting majestic mountains</figcaption>
+        </figure>
+      </div>
+    </section>
+    <!-- End Info Gallery Section -->
+    <!-- Quote Section -->
+    <article class="quote">
+      <figure class="quote__block">
+        <blockquote class="quote__block--text">Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. So throw off the bowlines, sail away from safe harbor, catch the trade winds in your sails. Explore, Dream, Discover.</blockquote>
+        <figcaption class="quote__block--author">-H. Jackson Brown Jr.</figcaption>
+      </figure>
+    </article>
+    <!-- End Quote Section -->
+    <!-- CTA Section -->
+    <section class="cta__section">
+      <div class="cta__section--container">
+        <div class="cta__content">
+          <h3 class="cta__content--title">Call to action! It's time!</h3>
+          <p class="cta__content--text">Sign up for our product by clicking that button right over there!</p>
         </div>
-        <nav class="nav-links">
-          <a href="/">Home</a>
-          <a href="/">About Us</a>
-          <a href="/">Contact Us</a>
-        </nav>
-      </header>
-
-      <!--Created section to place first bit of main information and main image in-->
-      <section class="hero">
-        <div class="hero-container">
-          <h1 class="hero-main-text">
-            Experience the Majesty of the Mountains
-          </h1>
-          <p class="hero-secondary-text">
-            Join our community and discover the breathtaking beauty and
-            adventure that Majestic Peaks has to offer. Sign up now to receive
-            exclusive access to our guided tours, special events, and expert
-            tips on mountain exploration. Your adventure begins here!
-          </p>
-          <button class="hero-button">Sign Up</button>
-        </div>
-        <div class="hero-image-container">
-          <img
-            src="images/ashok-sharma-y36ZvMDyrLM-unsplash.jpg"
-            alt="illustration"
-            class="hero-image"
-          />
-        </div>
-      </section>
-
-      <!--Created section for an image gallery-->
-      <section class="info-section">
-        <h1 class="info-header-text">Explore Our Stunning Mountian Views</h1>
-        <div class="info-gallery">
-          <div class="info-gallery-container">
-            <img
-              class="info-image"
-              src="images/daniel-roe-lpjb_UMOyx8-unsplash.jpg"
-              alt="Mountain Reflection"
-            />
-            <p class="info-image-text">
-              Crystal clear water reflecting majestic mountains
-            </p>
-          </div>
-          <div class="info-gallery-container">
-            <img
-              class="info-image"
-              src="images/luca-bravo-ESkw2ayO2As-unsplash.jpg"
-              alt="Mountain Lake View"
-            />
-            <p class="info-image-text">
-              Serene lake surrounded by towering pine trees
-            </p>
-          </div>
-          <div class="info-gallery-container">
-            <img
-              class="info-image"
-              src="images/fynn-DEnuB_zok9M-unsplash.jpg"
-              alt="Snow-Capped Mountains"
-            />
-            <p class="info-image-text">
-              Snow-capped peaks reflected in a tranquil lake
-            </p>
-          </div>
-          <div class="info-gallery-container">
-            <img
-              class="info-image"
-              src="images/ben-black-r6wCtto743w-unsplash.jpg"
-              alt="Misty Mountain View"
-            />
-            <p class="info-image-text">
-              Misty mountains creating a mystical atmosphere
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <!--A fun fact or quote will go here-->
-      <article class="quote-section">
-        <p class="quote-text">
-          Twenty years from now you will be more disappointed by the things that
-          you didn't do than by the ones you did do. So throw off the bowlines,
-          sail away from safe harbor, catch the trade winds in your sails.
-          Explore, Dream, Discover.
-        </p>
-        <p class="quote-author">- H. Jackson Brown Jr.</p>
-      </article>
-
-      <!--This will be for the call to action section-->
-      <section class="marketing-section">
-        <div class="marketing-container">
-          <div class="call-to-action">
-            <p class="call-to-action-first">Call to action! It's time!</p>
-            <p class="call-to-action-second">
-              Sign up for our product by clicking that button right over there!
-            </p>
-          </div>
-          <button class="signup-button">Sign Up</button>
-        </div>
-      </section>
-    </main>
-    <!--Footer for copyright information-->
-    <!--Practiced the copyright symbol html entity-->
-    <footer>Copyright &#169; The Odin Project 2021</footer>
-  </body>
+        <button class="cta__section--btn">Sign Up</button>
+      </div>
+    </section>
+    <!-- End CTA Section -->
+  </main>
+  <!-- End Main -->
+  <!-- Footer -->
+  <footer class="footer">
+    <p class="footer__copyright">Copyright &copy; The Odin Project 2024</p>
+  </footer>
+  <!-- End Footer -->
+</body>
 </html>
